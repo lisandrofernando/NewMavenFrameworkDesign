@@ -53,7 +53,7 @@ public class BaseClass {
 		setupBrowser(browserName);
 		driver.manage().window().maximize();
 		driver.get(Constants.url);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 	}
 
 	@AfterMethod

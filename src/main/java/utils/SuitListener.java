@@ -3,6 +3,7 @@ package utils;
 import java.io.File;
 import java.io.InputStream;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
@@ -12,7 +13,7 @@ import org.testng.reporters.Files;
 
 import com.aventstack.extentreports.utils.FileUtil;
 
-public class SuitListener implements ITestListener {
+public class SuitListener extends BaseClass implements ITestListener {
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -32,7 +33,8 @@ public class SuitListener implements ITestListener {
 		try {
 			String FileName = System.getProperty("user.dir") + File.separator + "screenshots" + File.separator
 					+ result.getMethod().getMethodName();
-			File f = ((TakesScreenshot) BaseClass.driver).getScreenshotAs(OutputType.FILE);
+			File f = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			//FileUtils.copyFiles();
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

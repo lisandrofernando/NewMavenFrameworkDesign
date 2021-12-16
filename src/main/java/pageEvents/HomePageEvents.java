@@ -1,12 +1,8 @@
 package pageEvents;
 
-import java.time.Duration;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.Select;
 
 import pageObjects.HomePageElements;
 import utils.BaseClass;
@@ -14,19 +10,30 @@ import utils.FindElement;
 
 public class HomePageEvents extends BaseClass {
 
+	FindElement find = new FindElement();
+
 	public void hoverSignInWindow() {
 		Actions action = new Actions(driver);
-		FindElement find = new FindElement();
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nav-link-accountList")));
 		action.moveToElement(find.getElement("ID", HomePageElements.signInPopUp)).build().perform();
 
 	}
 
 	public void clickSignInButton() {
-		FindElement find = new FindElement();
 		find.getElement("CSS", HomePageElements.signIn).click();
 
+	}
+
+	public void searchItem() {
+
+		find.getElement("ID", HomePageElements.searchBox).sendKeys("MackBook");
+		find.getElement("ID", HomePageElements.searchBox).sendKeys(Keys.ENTER);
+	}
+
+	public void selectItem() {
+		find.getElement("ID", HomePageElements.searchItems).click();
+		;
+		Select select = new Select(find.getElement("ID", HomePageElements.searchItems));
+		select.selectByIndex(4);
 	}
 
 }

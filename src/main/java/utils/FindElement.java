@@ -3,6 +3,8 @@ package utils;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class FindElement {
@@ -23,7 +25,7 @@ public class FindElement {
 		case "TAGNAME":
 			return BaseClass.driver.findElement(By.tagName(identifierValue));
 		default:
-			return null;
+			return  null;
 
 		}
 	}

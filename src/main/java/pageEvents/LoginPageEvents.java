@@ -1,5 +1,8 @@
 package pageEvents;
 
+
+
+
 import org.testng.Assert;
 
 import pageObjects.LoginPageElements;
@@ -7,16 +10,22 @@ import utils.BaseClass;
 import utils.FindElement;
 
 public class LoginPageEvents extends BaseClass {
-
+	FindElement find = new FindElement();
 	public void enterEmailBox() {
-		FindElement find = new FindElement();
+		
 		find.getElement("XPATH", LoginPageElements.inputEmail).sendKeys("lisandrusfernandus@gmail.com");
 	}
 
 	public void clickContinue() {
-		FindElement find = new FindElement();
+		
 		find.getElement("ID", LoginPageElements.continueSignIn).click();
 		;
 	}
+	
+//public  String verifyLogo(String element) {
+//		
+//    String webelement =	find.getElement("CSS", LoginPageElements.Logo);	
+//		return element;
+//	}
 
 }

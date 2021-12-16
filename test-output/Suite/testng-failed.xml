@@ -9,9 +9,9 @@
     <classes>
       <class name="tests.Amazon">
         <methods>
-          <include name="Amazon"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="AmazonValidation"/>
           <include name="afterTest"/>
           <include name="beforeMethod"/>
         </methods>
