@@ -2,12 +2,12 @@
 <testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-16T17:36:17 CST" name="Suite" finished-at="2021-12-16T17:37:02 CST" duration-ms="45079">
+  <suite started-at="2021-12-17T18:22:39Z" name="Suite" finished-at="2021-12-17T18:23:21Z" duration-ms="41413">
     <groups>
     </groups>
-    <test started-at="2021-12-16T17:36:17 CST" name="Test Automation" finished-at="2021-12-16T17:37:02 CST" duration-ms="45079">
+    <test started-at="2021-12-17T18:22:39Z" name="Test Automation" finished-at="2021-12-17T18:23:21Z" duration-ms="41413">
       <class name="tests.AmazonSearch">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.AmazonSearch@2dc54ad4]" started-at="2021-12-16T17:36:43 CST" name="beforeMethod" finished-at="2021-12-16T17:36:49 CST" duration-ms="6535" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.AmazonSearch@2c78d320]" started-at="2021-12-17T18:23:04Z" name="beforeMethod" finished-at="2021-12-17T18:23:09Z" duration-ms="5034" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,22 +23,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="AmazonSearch()[pri:0, instance:tests.AmazonSearch@2dc54ad4]" started-at="2021-12-16T17:36:49 CST" name="AmazonSearch" finished-at="2021-12-16T17:36:54 CST" duration-ms="4070" status="PASS">
+        <test-method signature="AmazonSearch()[pri:0, instance:tests.AmazonSearch@2c78d320]" started-at="2021-12-17T18:23:09Z" name="AmazonSearch" finished-at="2021-12-17T18:23:13Z" duration-ms="3929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AmazonSearch -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AmazonSearch@2dc54ad4]" started-at="2021-12-16T17:36:54 CST" name="afterMethod" finished-at="2021-12-16T17:36:54 CST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AmazonSearch@2c78d320]" started-at="2021-12-17T18:23:13Z" name="afterMethod" finished-at="2021-12-17T18:23:14Z" duration-ms="109" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AmazonSearch status=SUCCESS method=AmazonSearch.AmazonSearch()[pri:0, instance:tests.AmazonSearch@2dc54ad4] output={null}]]]>
+                <![CDATA[[TestResult name=AmazonSearch status=SUCCESS method=AmazonSearch.AmazonSearch()[pri:0, instance:tests.AmazonSearch@2c78d320] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.AmazonSearch@2dc54ad4]" started-at="2021-12-16T17:36:54 CST" name="beforeMethod" finished-at="2021-12-16T17:36:59 CST" duration-ms="5655" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.AmazonSearch@2c78d320]" started-at="2021-12-17T18:23:14Z" name="beforeMethod" finished-at="2021-12-17T18:23:19Z" duration-ms="5112" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,15 +54,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="selectItem()[pri:0, instance:tests.AmazonSearch@2dc54ad4]" started-at="2021-12-16T17:36:59 CST" name="selectItem" finished-at="2021-12-16T17:37:01 CST" duration-ms="1847" status="PASS">
+        <test-method signature="selectItem()[pri:0, instance:tests.AmazonSearch@2c78d320]" started-at="2021-12-17T18:23:19Z" name="selectItem" finished-at="2021-12-17T18:23:20Z" duration-ms="1717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectItem -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AmazonSearch@2dc54ad4]" started-at="2021-12-16T17:37:01 CST" name="afterMethod" finished-at="2021-12-16T17:37:01 CST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AmazonSearch@2c78d320]" started-at="2021-12-17T18:23:20Z" name="afterMethod" finished-at="2021-12-17T18:23:20Z" duration-ms="101" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectItem status=SUCCESS method=AmazonSearch.selectItem()[pri:0, instance:tests.AmazonSearch@2dc54ad4] output={null}]]]>
+                <![CDATA[[TestResult name=selectItem status=SUCCESS method=AmazonSearch.selectItem()[pri:0, instance:tests.AmazonSearch@2c78d320] output={null}]]]>
               </value>
             </param>
           </params>
@@ -71,11 +71,11 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.AmazonSearch -->
       <class name="tests.Amazon">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.Amazon@61001b64]" started-at="2021-12-16T17:36:17 CST" name="beforeTest" finished-at="2021-12-16T17:36:17 CST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.Amazon@67d18ed7]" started-at="2021-12-17T18:22:39Z" name="beforeTest" finished-at="2021-12-17T18:22:40Z" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.Amazon@61001b64]" started-at="2021-12-16T17:36:17 CST" name="beforeMethod" finished-at="2021-12-16T17:36:27 CST" duration-ms="10213" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.Amazon@67d18ed7]" started-at="2021-12-17T18:22:40Z" name="beforeMethod" finished-at="2021-12-17T18:22:50Z" duration-ms="10111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,22 +91,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Amazon()[pri:0, instance:tests.Amazon@61001b64]" started-at="2021-12-16T17:36:27 CST" name="Amazon" finished-at="2021-12-16T17:36:32 CST" duration-ms="5096" status="PASS">
+        <test-method signature="Amazon()[pri:0, instance:tests.Amazon@67d18ed7]" started-at="2021-12-17T18:22:50Z" name="Amazon" finished-at="2021-12-17T18:22:54Z" duration-ms="4408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Amazon -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Amazon@61001b64]" started-at="2021-12-16T17:36:32 CST" name="afterMethod" finished-at="2021-12-16T17:36:32 CST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Amazon@67d18ed7]" started-at="2021-12-17T18:22:54Z" name="afterMethod" finished-at="2021-12-17T18:22:54Z" duration-ms="120" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Amazon status=SUCCESS method=Amazon.Amazon()[pri:0, instance:tests.Amazon@61001b64] output={null}]]]>
+                <![CDATA[[TestResult name=Amazon status=SUCCESS method=Amazon.Amazon()[pri:0, instance:tests.Amazon@67d18ed7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:tests.Amazon@61001b64]" started-at="2021-12-16T17:36:32 CST" name="beforeMethod" finished-at="2021-12-16T17:36:39 CST" duration-ms="6266" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:tests.Amazon@67d18ed7]" started-at="2021-12-17T18:22:54Z" name="beforeMethod" finished-at="2021-12-17T18:23:00Z" duration-ms="5690" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,22 +122,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="AmazonValidation()[pri:0, instance:tests.Amazon@61001b64]" started-at="2021-12-16T17:36:39 CST" name="AmazonValidation" finished-at="2021-12-16T17:36:43 CST" duration-ms="4306" status="PASS">
+        <test-method signature="AmazonValidation()[pri:0, instance:tests.Amazon@67d18ed7]" started-at="2021-12-17T18:23:00Z" name="AmazonValidation" finished-at="2021-12-17T18:23:04Z" duration-ms="4420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AmazonValidation -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Amazon@61001b64]" started-at="2021-12-16T17:36:43 CST" name="afterMethod" finished-at="2021-12-16T17:36:43 CST" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Amazon@67d18ed7]" started-at="2021-12-17T18:23:04Z" name="afterMethod" finished-at="2021-12-17T18:23:04Z" duration-ms="100" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AmazonValidation status=SUCCESS method=Amazon.AmazonValidation()[pri:0, instance:tests.Amazon@61001b64] output={null}]]]>
+                <![CDATA[[TestResult name=AmazonValidation status=SUCCESS method=Amazon.AmazonValidation()[pri:0, instance:tests.Amazon@67d18ed7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.Amazon@61001b64]" started-at="2021-12-16T17:37:01 CST" name="afterTest" finished-at="2021-12-16T17:37:02 CST" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.Amazon@67d18ed7]" started-at="2021-12-17T18:23:20Z" name="afterTest" finished-at="2021-12-17T18:23:21Z" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

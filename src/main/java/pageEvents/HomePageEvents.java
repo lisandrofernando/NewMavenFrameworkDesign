@@ -15,11 +15,11 @@ public class HomePageEvents extends BaseClass {
 	public void hoverSignInWindow() {
 		Actions action = new Actions(driver);
 		action.moveToElement(find.getElement("ID", HomePageElements.signInPopUp)).build().perform();
-
+        BaseClass.logger.info("Mouse Over The Element");
 	}
-
 	public void clickSignInButton() {
 		find.getElement("CSS", HomePageElements.signIn).click();
+		BaseClass.logger.info("Clicking on a button");
 
 	}
 
@@ -27,11 +27,12 @@ public class HomePageEvents extends BaseClass {
 
 		find.getElement("ID", HomePageElements.searchBox).sendKeys("MackBook");
 		find.getElement("ID", HomePageElements.searchBox).sendKeys(Keys.ENTER);
+		BaseClass.logger.info("Entering a text");
 	}
 
 	public void selectItem() {
 		find.getElement("ID", HomePageElements.searchItems).click();
-		;
+		BaseClass.logger.info("Selecting an element");
 		Select select = new Select(find.getElement("ID", HomePageElements.searchItems));
 		select.selectByIndex(4);
 	}

@@ -33,8 +33,8 @@ public class SuitListener extends BaseClass implements ITestListener {
 		try {
 			String FileName = System.getProperty("user.dir") + File.separator + "screenshots" + File.separator
 					+ result.getMethod().getMethodName();
-			File f = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			//FileUtils.copyFiles();
+			File f = ((TakesScreenshot) BaseClass.driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(f, new File(FileName + ".png"));
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
