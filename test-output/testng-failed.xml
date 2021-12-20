@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="utils.SuitListener"/>
-  </listeners>
-  <test thread-count="5" name="Test Automation(failed)">
-    <parameter name="browserName" value="chrome"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Amazon">
+      <class name="cucumberOptions.TestNGTestRunner">
         <methods>
-          <include name="beforeTest"/>
-          <include name="AmazonValidation"/>
-          <include name="afterTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- tests.Amazon -->
+      </class> <!-- cucumberOptions.TestNGTestRunner -->
     </classes>
-  </test> <!-- Test Automation(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
